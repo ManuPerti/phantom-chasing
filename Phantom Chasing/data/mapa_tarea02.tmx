@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Tileset Cuadrado" tilewidth="32" tileheight="32">
+  <image source="Tileset Cuadrado.png" width="2048" height="2048"/>
+ </tileset>
+ <layer name="Suelo" width="20" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC5vLw8AwdxSP4lE8iocABgB8NZe/sAQAAA==
+  </data>
+ </layer>
+ <layer name="Decoracion" width="20" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC73UTQ5FQAwH8NlMLUSscYx3GpxMnAynGCvLV8ZHVesj8V6Tf2ZR+ZnGDAfGuD+kP8lYLtgygI/kaNWzHrckU6rGGtOSdHbzuDUIVhvuvQR7KeYT+zWDa49aTzxp5sWrmbNUjv3EeivFtSTvp+aU2avQahSP7jGDY0/zxjm180E97RnuTfuI9JkL2M8qleRpJj9/v/T4nahOvoXkXd3VO7Xe25f+D3etL5KjtdawBAAA
+  </data>
+ </layer>
+ <layer name="Decoracion2" width="20" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXo4CMfA8NnIP7CRx3zDPkhtAn/4DXPmH/kmFcINKcYiEuoZN4ooB8AAO6NFRiwBAAA
+  </data>
+ </layer>
+ <layer name="Obstaculos" width="20" height="15">
+  <properties>
+   <property name="obstaculo" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGL6Agxe/vDwfA0McH6Y4GxcqTQzAZRY5AJtZdzkYGO5xkGceMe5q5SbdXFLcdIuHgeE2ELMTiBMYaGZjYGhhI91NMBBPpbggxrx7zKg0MmhkhWBC5rERCBeYOdjMgplHjJ/vkBHPcZxAszlJ10cLAABom80QsAQAAA==
+  </data>
+ </layer>
+ <layer name="Agujeros" width="20" height="15">
+  <properties>
+   <property name="agujero" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAUDCeLYGRjigTiBnf52dwyAndQAtHT3QITJUI2HgQAAgReB7bAEAAA=
+  </data>
+ </layer>
+ <layer name="Muralla" width="20" height="15" opacity="0.99">
+  <properties>
+   <property name="muralla" value="true"/>
+   <property name="obstaculo" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC3PiZWAwZiGM+XkYGL5z4qedgGY1ATGpAGQ+NtDEi1uOHPMIyZGjx4mK/gUBaoYfITlSAbnxgQvA0hY1zSMnPnABctMzLjBSw6+YBT+eCcSf2BgYZhNQBzILAPLpXISwBAAA
+  </data>
+ </layer>
+ <layer name="Segundo nivel" width="20" height="15">
+  <properties>
+   <property name="transparencia" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoD9o42RgaOeE0MjgBA9+fXJ8EIwOjnGi0sQAbOYQpY+dgUEeiBXY8Zs1l4OBYR4HeXZQCzjxovLJcdNxAnECA85sDAwubKSZPVBgHjMqTQ44RmS4DAYgycLAIAXE0izEqX/Fhh9HAs2JAuJoFvzqaAEA3dG/ArAEAAA=
+  </data>
+ </layer>
+</map>
