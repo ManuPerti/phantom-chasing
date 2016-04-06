@@ -6,7 +6,7 @@ Simple 2D game developed in Java language using Lightweight Java Game Library.
 I created this game during my studies on Multiplatform Application, so it's very simple. Nevertheless you can notice some features such as:
 - Music and SFX reproduction
 - Event-driven and OOP programming.
-- Map created using tilesets and layers.
+- Map created using tilesets and layers (Tiled).
 
 ## Execute instrucions
 Download the project and execute **PMDM02.jar** inside *dist* directory.
@@ -20,3 +20,6 @@ Use the arrows to move the character in all directions and be careful, because e
 - [Lightweight Java Game Library 3](https://www.lwjgl.org/)
 - [Tiled Map Editor](http://www.mapeditor.org/)
 - [Tilesets for Tilemaps](http://opengameart.org/content/best-orthogonal-rectangular-tilesets-for-tilemaps)
+
+## Screenshots
+<img src="./Phantom Chasing/screenshot/vista.jpg" alt="Pantalla de juego" width="500">
